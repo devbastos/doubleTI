@@ -1,25 +1,45 @@
-.example-card {
-    max-width: 400px;
-}
-
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-}
-
-
-/* .cardroduct {
-    max-width: 400px;
-}
-
-.mat-card-header {
-    padding: 0px;
-    margin: 0px;
-    opacity: 1;
-}
-
-.mat-card-title {
-    margin-left: 21rem;
-    font-size: 1.5rem;
-    color: #C9C9C9
-} */
+        .example-card {
+            max-width: 400px;
+        }
+        
+        .example-header-image {
+            background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+            background-size: cover;
+        }
+        /* menu editarDeletar */
+        
+        .mat-icon-button {
+            margin-left: 19rem;
+        }
+        
+        .editaIcon {
+            margin: 5px;
+            border-radius: 20px;
+            background: #725172 100px;
+            color: white;
+        }
+        
+        .mat-menu-item .mat-icon {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        .mat-card-header {
+            padding: 0px;
+            margin: 0px;
+            opacity: 1;
+        }
+        
+        .mat-card-title {
+            margin-left: 21rem;
+            font-size: 1.5rem;
+            color: #C9C9C9
+        }
+        
+        .iconDelete {
+            height: 27px;
+            background: #BA1414 0% 0% no-repeat padding-box;
+            opacity: 1;
+            color: white;
+            border-radius: 20px;
+        }
