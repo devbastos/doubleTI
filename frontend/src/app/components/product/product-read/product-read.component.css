@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+}
+
+.edit {
+    margin-right: 10px;
+}
+
+.edit>i {
+    background-color: #725172;
+    color: white;
+    border-radius: 100px;
+    margin: 0;
+    padding: 0.3rem;
+}
+
+.delete>i {
+    background-color: #BA1414;
+    color: white;
+    border-radius: 100px;
+    margin: 0;
+    padding: 0.3rem;
+}

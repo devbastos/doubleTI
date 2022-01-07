@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro 2021 16'",
+      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
+      "price": 17499,
+      "remessa": "17/08/2021",
+      "categoria": "eletronicos"
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air 256gb 2020",
+      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
+      "price": 10499,
+      "remessa": "17/08/2021",
+      "categoria": "eletronicos"
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air 512 gb 2021",
+      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
+      "price": "13499.00",
+      "remessa": "17/08/2021",
+      "categoria": "eletronicos"
+    },
+    {
+      "name": "MacBook pro 2019 16'",
+      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
+      "price": "12499.00",
+      "id": 4,
+      "remessa": "17/08/2021",
+      "categoria": "eletronicos"
+    },
+    {
+      "name": "teste",
+      "price": "1587",
+      "id": 5,
+      "remessa": "17/08/2021",
+      "categoria": "eletronicos"
+    },
+    {
+      "name": "xbox serie X",
+      "price": "2500",
+      "id": 6,
+      "remessa": "17/08/2021",
+      "categoria": "eletronicos"
+    }
+  ]
+}
