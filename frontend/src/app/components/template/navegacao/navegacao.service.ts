@@ -22,4 +22,5 @@ export class navService {
   set navData(navData: navData) {
     this._navData.next(navData)
   }
+ 
 }

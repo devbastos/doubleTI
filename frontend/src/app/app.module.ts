@@ -36,7 +36,9 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { ProductCardComponent } from './components/product/product-card/product-card.component';
 import { NavegacaoComponent } from './components/template/navegacao/navegacao.component';
-
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon';
+import { MenuEditarDeletarComponent } from './components/product/menu-editar-deletar/menu-editar-deletar.component';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -55,6 +57,7 @@ registerLocaleData(localePt);
     ProductDeleteComponent,
     ProductCardComponent,
     NavegacaoComponent,
+    MenuEditarDeletarComponent,
   ],
   imports: [
     BrowserModule,
@@ -73,7 +76,10 @@ registerLocaleData(localePt);
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatIconModule
   ],
   providers: [{
     provide: LOCALE_ID,

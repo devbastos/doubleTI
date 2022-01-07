@@ -1,4 +1,53 @@
-<nav class=" navbar navbar-expand-lg navbar-dark bg-white mb-5 border-bottom shadow-sm">
+<div class="container-fluid">
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-white mb-5 border-bottom shadow-xxl-fluid">
+
+        <a class="navbar-brand" routerLink="/home">
+            <img src="/assets/img/logo.png" class="logo" alt="logo">
+        </a>
+
+        <!--botao abrir menu compilado-->
+        <a class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target=".navbar-collapse"> <span class="navbar-toggler-icon"> </span></a>
+
+        <div class="navbar-collapse collapse">
+            <ul class="navbar-nav flex-grow-1 ">
+
+                <!-- ingnorar -->
+                <li class="nav-item" id="text"></li>
+                <!-- ingnorar end -->
+
+                <li class="nav-item" id="text">
+                    <a class="nav-link text-dark" routerLink="/home">Início</a>
+                </li>
+
+                <li class="nav-item" id="text">
+                    <a class="nav-link text-dark" routerLink="/meusProdutos">Meus Produtos</a>
+                </li>
+
+            </ul>
+
+            <!-- links lado direito -->
+            <div class="align-self-end ">
+                <ul class="navbar-nav ">
+
+                    <li class="nav-item reta">
+                        |
+                    </li>
+
+                    <li class="nav-item fotoTexto">
+                        <img src="/assets/img/perfil insta (1).jpg" alt="Foto Perfil" class="fotoPerfil"> Gabriel Bastos
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+
+    </nav>
+</div>
+<router-outlet></router-outlet>
+
+<!-- <nav class=" navbar navbar-expand-lg navbar-dark bg-white mb-5 border-bottom shadow-sm">
     <div class="container ">
         <a class="navbar-brand" routerLink="/home">
             <img src="/assets/img/logo.png" class="logo">
@@ -34,23 +83,28 @@
 </nav>
 <mat-sidenav-content>
     <router-outlet></router-outlet>
-</mat-sidenav-content>
+</mat-sidenav-content> -->
 
-<!-- <span class="logo">
-         <a routerLink="/home"> 
+<!-- <span class="logo">-->
+
+
+
+<!-- <div class="container">
+     </div>
+        <a routerLink="/home">
             <a href="/frontend/src/app/views/home/home.component.html">
-            <img class="logo" src="assets/img/logo.png" alt="logo">
-        </a>
-    </span>
+                <img class="logo" src="assets/img/logo.png" alt="logo">
+            </a>
 
-    <span class="title-group inicio">
+
+            <span class="title-group inicio">
         <a routerLink="{{ routeUrl }}">         
             {{ title }}            
             </a>
     </span>
 
-    <span class="title-group meusProdutos">
+            <span class="title-group meusProdutos">
         <a routerLink="{{ routeUrl }}">         
-            Meus Produtos
+            Meus Produtos 
             </a>
     </span> -->
