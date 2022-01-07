@@ -1,3 +1,7 @@
+        .app-product-card {
+            background: #F4F4F4;
+        }
+        
         .example-card {
             max-width: 400px;
         }
@@ -9,7 +13,7 @@
         /* menu editarDeletar */
         
         .mat-icon-button {
-            margin-left: 19rem;
+            margin-left: 14rem;
         }
         
         .editaIcon {
@@ -31,7 +35,7 @@
         }
         
         .mat-card-title {
-            margin-left: 21rem;
+            /* margin-left: 21rem; */
             font-size: 1.5rem;
             color: #C9C9C9
         }
@@ -42,4 +46,8 @@
             opacity: 1;
             color: white;
             border-radius: 20px;
+        }
+        
+        .card-title {
+            font-size: 1.5rem;
         }
