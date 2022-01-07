@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './product-read.component.html',
   styleUrls: ['./product-read.component.css']
 })
+
 export class ProductReadComponent implements OnInit {
 
   products: Product[]
-  displayedColumns = ['id', 'name', 'price', 'remessa','categoria','action',]
+  displayedColumns = ['id', 'name','price', 'remessa','action',]
 
   
   

@@ -1,21 +1,56 @@
 <mat-card>
-    <mat-card-title>Novo Produto</mat-card-title>
+    <mat-card-title>Novo Produto.
+        <button type="button" class="btn-close" routerLink="/editarDeletar"></button>
+    </mat-card-title>
+    <hr>
     <form>
-        <mat-form-field>
-            <input matInput placeholder="Nome"
-                [(ngModel)]="product.name" name="name">
-        </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Preço (R$)"
-                [(ngModel)]="product.price" name="price">
-        </mat-form-field>
+
+        <fieldset class="row ">
+            <div class="form-floating mb-3 p-1 ">
+                <input type="nome " class="form-control " autofocus placeholder="nome completo" [(ngModel)]="product.name" name="name">
+                <!--[(ngModel="produto.nome" )]-->
+                <label for="floatingInput">Nome</label>
+
+            </div>
+
+            <div class="form-floating mb-3 p-1 ">
+                <textarea class="form-control " placeholder="Descrição " id="descricao " style="height: 200px" [(ngModel)]="product.descricao" name="categoria"></textarea>
+                <label for="floatingTextarea2">Descrição</label>
+                <!--[(ngModel="produto.descricao" )]-->
+            </div>
+
+            <div class="form-floating mb-3 p-1 col-md-6 ">
+                <input type="text " class="form-control " autofocus id="preco " placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+                <!--[(ngModel="produto.preco" )]-->
+                <label for="floatingInput ">Preço (R$)</label>
+            </div>
+
+            <div class="form-floating mb-3 p-1 col-md-6 ">
+                <input type="date" class="form-control " autofocus id="dataRemessa " placeholder="Data Remessa" [(ngModel)]="product.remessa" name="remessa">
+                <!--[(ngModel="produto.dataRemssa" )]-->
+                <label for="floatingInput ">Data Remessa</label>
+            </div>
+
+            <div class="form-floating mb-3 p-1 col-md-12 ">
+                <input type="text " class="form-control " autofocus id="categorias " placeholder="categorias (Separe-as por Vírgulas " [(ngModel)]="product.categoria" name="categoria">
+                <label for="floatingInput">
+                    <!--[(ngModel="produto.categoria" )]-->categorias (Separe-as por Vírgulas)</label>
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+            </div>
+
+
+        </fieldset>
     </form>
-    <button mat-raised-button (click)="createProduct()" color="primary">
+    <button mat-raised-button (click)="createProduct()" routerLink="/tabela" id="btnModalSalvar">
         Salvar
     </button>
-    
-    <button mat-raised-button (click)="cancel()">
+
+    <button mat-raised-button (click)="cancel()" id="btnModalCancelar">
         Cancelar
     </button>
 </mat-card>
 
+<router-outlet></router-outlet>

@@ -1,7 +1,37 @@
-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+body {
+    background: #707070;
+}
+
+.mat-card {
+    max-width: 25rem;
+    margin-left: 40rem;
+    border-radius: 20px;
+}
+
+#btnHeader {
+    margin-left: 8rem;
+}
+
+p {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#delete {
+    background: #725172;
+    color: white;
+    border: none;
+}
+
+#delete {
+    background: #5e445e;
+}
+
+#cancelar {
+    border: 1px solid #5e445e;
+    margin-left: 8.5rem;
 }
 
 button {

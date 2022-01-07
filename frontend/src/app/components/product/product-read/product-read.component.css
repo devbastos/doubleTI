@@ -2,8 +2,15 @@ table {
     width: 100%;
 }
 
-.edit {
-    margin-right: 10px;
+.btn-primary {
+    background: #725172;
+    color: white;
+    border: none;
+    margin-left: 6rem;
+}
+
+.btn-primary:hover {
+    background: #5e445e;
 }
 
 .edit>i {

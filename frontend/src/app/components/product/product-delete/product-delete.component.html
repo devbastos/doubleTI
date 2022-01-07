@@ -1,20 +1,21 @@
 <mat-card>
-    <mat-card-title>Excluir Produto</mat-card-title>
+    <mat-card-title>Excluir Produto.
+        <button type="button" class="btn-close" routerLink="/editarDeletar" id="btnHeader"></button>
+    </mat-card-title>
+    <hr>
     <form>
-        <mat-form-field>
-            <input matInput placeholder="Nome"
-                [value]="product.name" name="name" disabled>
-        </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Preço (R$)"
-                [value]="product.price" name="price" disabled>
-        </mat-form-field>
+
+        <fieldset class="row ">
+            <p>Você realmente deseja excluir esse produto?</p>
+
+
+        </fieldset>
     </form>
-    <button mat-raised-button (click)="deleteProduct()" color="warn">
-        Excluir
-    </button>
-    
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
-    </button>
+
+    <button mat-raised-button (click)="cancel()" id="cancelar">Cancelar</button>
+
+    <button mat-raised-button (click)="deleteProduct()" id="delete">Excluir</button>
+
 </mat-card>
+
+<router-outlet></router-outlet>

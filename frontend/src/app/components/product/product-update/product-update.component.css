@@ -1,9 +1,41 @@
-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+.mat-typography {
+    background: #707070;
 }
 
-button {
-    margin: 20px 15px 0px 0px;
+.mat-card {
+    max-width: 40rem;
+    margin-left: 38rem;
+    border-radius: 10px;
+}
+
+.btn-close {
+    margin-left: 25rem;
+}
+
+#btnModalCancel {
+    background: transparent;
+    color: #725172;
+    border: 1px solid #725172;
+    margin-left: 10rem;
+    margin-right: 1rem;
+    margin-left: 25rem
+}
+
+#btnModalCancel:hover {
+    width: 5.5rem;
+}
+
+#btnModalSalvar {
+    background: #725172;
+    color: #fff;
+}
+
+#btnModalSalvar:hover {
+    background: #5e445e;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
 }

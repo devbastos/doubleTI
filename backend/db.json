@@ -4,9 +4,9 @@
       "id": 1,
       "name": "MacBook Pro 2021 16'",
       "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
-      "price": 17499,
-      "remessa": "17/08/2021",
-      "categoria": "eletronicos"
+      "price": "1500",
+      "remessa": "2022-01-08",
+      "categoria": "domestico"
     },
     {
       "id": 2,
@@ -45,6 +45,22 @@
       "id": 6,
       "remessa": "17/08/2021",
       "categoria": "eletronicos"
+    },
+    {
+      "name": "televisao LG 15\"",
+      "descricao": "televisao lg usada",
+      "price": "1200",
+      "remessa": "2019-04-21",
+      "categoria": "eletronicos,televisao,usados",
+      "id": 9
+    },
+    {
+      "name": "monitor 365HZ",
+      "descricao": "monitor gamer",
+      "price": "5000",
+      "remessa": "2020-05-27",
+      "categoria": "games",
+      "id": 10
     }
   ]
 }

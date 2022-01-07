@@ -1,6 +1,4 @@
 .logo {
-    margin-top: 9px;
-    margin-left: 62px;
     width: 131px;
     height: 38px;
     opacity: 1;
@@ -41,10 +39,6 @@
     padding: 1px;
     border: 2px solid #9c679c;
     background: #9c679c;
-}
-
-.fotoTexto {
-    margin-right: 4rem;
 }
 
 

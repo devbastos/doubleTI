@@ -1,6 +1,32 @@
         .app-product-card {
             background: #F4F4F4;
         }
+        /* header */
+        
+        .titulo {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        
+        #twoHeader {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #btnHeader {
+            margin: 0;
+        }
+        
+        .btn-primary {
+            background: #725172;
+            color: white;
+            border: none;
+            margin-left: 6rem;
+        }
+        
+        .btn-primary:hover {
+            background: #5e445e;
+        }
         
         .example-card {
             max-width: 400px;
@@ -16,10 +42,10 @@
             margin-left: 14rem;
         }
         
-        .editaIcon {
+        .iconEditar {
             margin: 5px;
             border-radius: 20px;
-            background: #725172 100px;
+            background: 2rem #725172;
             color: white;
         }
         
