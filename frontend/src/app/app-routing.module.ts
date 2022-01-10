@@ -1,3 +1,4 @@
+import { LoginComponent } from './account/login/login.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
@@ -12,7 +13,9 @@ import { ProductCardComponent } from './components/product/product-card/product-
 
 
 const routes: Routes = [
-  { path: "", component: HomeComponent },
+ 
+  { path: "", component: LoginComponent,
+children:[
   { path: "home", component: HomeComponent },
   { path: "meusProdutos", component: ProductCardComponent },
   { path: "tabelaProdutos", component: ProductCrudComponent },
@@ -21,6 +24,9 @@ const routes: Routes = [
   { path: "products/delete/:id", component: ProductDeleteComponent },
   { path: "editarDeletar", component: ProductCardComponent },
   { path: "tabela", component: ProductReadComponent },
+] },
+
+  
 ];
 
 @NgModule({

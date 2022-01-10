@@ -39,6 +39,8 @@ import { NavegacaoComponent } from './components/template/navegacao/navegacao.co
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import { MenuEditarDeletarComponent } from './components/product/menu-editar-deletar/menu-editar-deletar.component';
+import { LoginComponent } from './account/login/login.component';
+import { CreateAccountComponent } from './account/create-account/create-account.component';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -58,6 +60,8 @@ registerLocaleData(localePt);
     ProductCardComponent,
     NavegacaoComponent,
     MenuEditarDeletarComponent,
+    LoginComponent,
+    CreateAccountComponent,
   ],
   imports: [
     BrowserModule,
