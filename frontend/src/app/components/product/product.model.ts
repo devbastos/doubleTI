@@ -3,6 +3,6 @@ export interface Product {
     descricao: string
     name: string
     price: number
-    remessa: string
-    categoria: string 
+    remessa?: string
+    categoria?: string 
 }

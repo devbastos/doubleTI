@@ -9,8 +9,10 @@ import { Product } from './../product.model';
 
 export class ProductCardComponent implements OnInit {
 
-  products: Product[]
-  displayedColumns = ['id', 'name', 'price', 'descricao']
+
+  products: Product []
+  displayedColumns = ['id', 'name', 'descricao','price', ]
+  router: any;
 
   
   
@@ -18,8 +20,15 @@ export class ProductCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.productService.card().subscribe(products => {
+      // console.log(products)
       this.products = products
     })
   }
 
+  cancel(): void {
+    this.router.navigate(["/meusProdutos"]);
+
+    
+  
+}
 }

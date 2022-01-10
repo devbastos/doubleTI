@@ -6,61 +6,8 @@
       "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
       "price": "1500",
       "remessa": "2022-01-08",
-      "categoria": "domestico"
-    },
-    {
-      "id": 2,
-      "name": "MacBook Air 256gb 2020",
-      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
-      "price": 10499,
-      "remessa": "17/08/2021",
-      "categoria": "eletronicos"
-    },
-    {
-      "id": 3,
-      "name": "MacBook Air 512 gb 2021",
-      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
-      "price": "13499.00",
-      "remessa": "17/08/2021",
-      "categoria": "eletronicos"
-    },
-    {
-      "name": "MacBook pro 2019 16'",
-      "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
-      "price": "12499.00",
-      "id": 4,
-      "remessa": "17/08/2021",
-      "categoria": "eletronicos"
-    },
-    {
-      "name": "teste",
-      "price": "1587",
-      "id": 5,
-      "remessa": "17/08/2021",
-      "categoria": "eletronicos"
-    },
-    {
-      "name": "xbox serie X",
-      "price": "2500",
-      "id": 6,
-      "remessa": "17/08/2021",
-      "categoria": "eletronicos"
-    },
-    {
-      "name": "televisao LG 15\"",
-      "descricao": "televisao lg usada",
-      "price": "1200",
-      "remessa": "2019-04-21",
-      "categoria": "eletronicos,televisao,usados",
-      "id": 9
-    },
-    {
-      "name": "monitor 365HZ",
-      "descricao": "monitor gamer",
-      "price": "5000",
-      "remessa": "2020-05-27",
-      "categoria": "games",
-      "id": 10
+      "categoria": "domestico",
+      "descricao": "computador"
     }
   ]
 }
