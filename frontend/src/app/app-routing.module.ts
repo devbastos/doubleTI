@@ -13,28 +13,27 @@ import { ProductCardComponent } from './components/product/product-card/product-
 
 
 const routes: Routes = [
-  // { path: "", component: LoginComponent,},
-  //   { path: "home", component: HomeComponent },
-  //   { path: "meusProdutos", component: ProductCardComponent },
-  //   { path: "tabelaProdutos", component: ProductCrudComponent },
-  //   { path: "products/create", component: ProductCreateComponent },
-  //   { path: "products/update/:id", component: ProductUpdateComponent },
-  //   { path: "products/delete/:id", component: ProductDeleteComponent },
-  //   { path: "editarDeletar", component: ProductCardComponent },
-  //   { path: "tabela", component: ProductReadComponent },
+  { path: "", component: LoginComponent,},
+    { path: "home", component: HomeComponent },
+    { path: "meusProdutos", component: ProductCardComponent },
+    { path: "tabelaProdutos", component: ProductCrudComponent },
+    { path: "products/create", component: ProductCreateComponent },
+    { path: "products/update/:id", component: ProductUpdateComponent },
+    { path: "products/delete/:id", component: ProductDeleteComponent },
+    { path: "editarDeletar", component: ProductCardComponent },
+    { path: "tabela", component: ProductReadComponent },
    
-  { path: "", component: LoginComponent,
-children:[
-  { path: "home", component: HomeComponent },
-  { path: "meusProdutos", component: ProductCardComponent },
-  { path: "tabelaProdutos", component: ProductCrudComponent },
-  { path: "products/create", component: ProductCreateComponent },
-  { path: "products/update/:id", component: ProductUpdateComponent },
-  { path: "products/delete/:id", component: ProductDeleteComponent },
-  { path: "editarDeletar", component: ProductCardComponent },
-  { path: "tabela", component: ProductReadComponent },
-] },
-// {path: '', component:} 
+//   { path: "", component: LoginComponent,
+// children:[
+//   { path: "home", component: HomeComponent },
+//   { path: "meusProdutos", component: ProductCardComponent },
+//   { path: "tabelaProdutos", component: ProductCrudComponent },
+//   { path: "products/create", component: ProductCreateComponent },
+//   { path: "products/update/:id", component: ProductUpdateComponent },
+//   { path: "products/delete/:id", component: ProductDeleteComponent },
+//   { path: "editarDeletar", component: ProductCardComponent },
+//   { path: "tabela", component: ProductReadComponent },
+// ] },
 
 
   
