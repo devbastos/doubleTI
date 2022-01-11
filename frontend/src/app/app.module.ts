@@ -41,7 +41,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { MenuEditarDeletarComponent } from './components/product/menu-editar-deletar/menu-editar-deletar.component';
 import { LoginComponent } from './account/login/login.component';
 import { CreateAccountComponent } from './account/create-account/create-account.component';
-import { RequestLoginComponent } from './resources/models/request-login/request-login.component';
+
 registerLocaleData(localePt);
 
 @NgModule({
@@ -63,7 +63,6 @@ registerLocaleData(localePt);
     MenuEditarDeletarComponent,
     LoginComponent,
     CreateAccountComponent,
-    RequestLoginComponent,
   ],
   imports: [
     BrowserModule,
