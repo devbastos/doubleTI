@@ -23,7 +23,7 @@ const routes: Routes = [
   //   { path: "editarDeletar", component: ProductCardComponent },
   //   { path: "tabela", component: ProductReadComponent },
    
-  { path: "", component: LoginComponent,
+  { path: "", component: HomeComponent,
 children:[
   { path: "home", component: HomeComponent },
   { path: "meusProdutos", component: ProductCardComponent },
