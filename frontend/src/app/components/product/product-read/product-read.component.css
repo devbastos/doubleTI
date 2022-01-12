@@ -14,14 +14,15 @@ table {
 }
 
 .edit>i {
-    background-color: #725172;
+    background: #725172;
     color: white;
     border-radius: 20px;
-    padding: 0.3rem;
+    padding: 10px;
 }
 
 .delete>i {
-    background-color: #BA1414;
+    background: #ba14145e;
     color: white;
     border-radius: 20px;
+    padding: 10px;
 }

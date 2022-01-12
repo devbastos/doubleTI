@@ -4,7 +4,7 @@
       "id": 1,
       "name": "MacBook Pro 2021 16\"",
       "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
-      "price": "1749900",
+      "price": "17499",
       "remessa": "2022-01-08",
       "categoria": "mac",
       "descricao": "MacBook Pro com a melhor tecnologia do mercado, trazendo muita inovação e velocidade"
@@ -13,22 +13,17 @@
       "id": 2,
       "name": "MacBook Air 356GB 2020",
       "descrition": "MacBook Pro com a melhor tecnologia do mercado,trazendo muita inovação e velocidade",
-      "price": "1049900",
+      "price": "10499",
       "remessa": "2022-01-08",
-      "categoria": "mac",
+      "categoria": "MacBook",
       "descricao": "MacBook Pro com a melhor tecnologia do mercado, trazendo muita inovação e velocidade"
-    },
-    {
-      "name": "MacBook Air 512GB 2021",
-      "descricao": "MacBook Pro com a melhor tecnologia do mercado, trazendo muita inovação e velocidade",
-      "price": "1349900",
-      "id": 3
     },
     {
       "name": "MacBook Pro 16\"",
       "descricao": "MacBook Pro com a melhor tecnologia do mercado, trazendo muita inovação e velocidade",
-      "price": "1249900",
-      "id": 4
+      "price": "12499",
+      "id": 4,
+      "remessa": "2016-03-13"
     }
   ]
 }

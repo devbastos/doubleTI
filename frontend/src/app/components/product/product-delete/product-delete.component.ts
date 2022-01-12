@@ -9,7 +9,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./product-delete.component.css"],
 })
 export class ProductDeleteComponent implements OnInit {
-  product: Product;
+  product: Product
 
   constructor(
     private productService: ProductService,
