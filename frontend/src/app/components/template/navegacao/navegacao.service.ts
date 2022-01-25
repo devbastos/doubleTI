@@ -7,20 +7,20 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class navService {
 
-  private _navData = new BehaviorSubject<navData>({
-    title: 'Início',
-    icon: 'home',
-    routeUrl: '',
-})
+//   private _navData = new BehaviorSubject<navData>({
+//     title: 'Início',
+//     icon: 'home',
+//     routeUrl: '',
+// })
 
-  constructor() { }
+//   constructor() { }
 
-  get navData(): navData {
-    return this._navData.value
-  }
+//   get navData(): navData {
+//     return this._navData.value
+//   }
 
-  set navData(navData: navData) {
-    this._navData.next(navData)
-  }
+//   set navData(navData: navData) {
+//     this._navData.next(navData)
+//   }
  
 }
