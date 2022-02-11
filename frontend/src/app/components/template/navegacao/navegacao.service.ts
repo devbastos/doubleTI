@@ -1,4 +1,4 @@
-import { navData } from './navegacao-data.model';
+// import { navData } from './navegacao-data.model';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
@@ -6,6 +6,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class navService {
+  navData: any;
 
 //   private _navData = new BehaviorSubject<navData>({
 //     title: 'Início',
@@ -23,4 +24,9 @@ export class navService {
 //     this._navData.next(navData)
 //   }
  
+}
+
+export interface navData {
+  title: string
+  routeUrl: string
 }
